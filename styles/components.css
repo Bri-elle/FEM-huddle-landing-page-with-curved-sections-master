@@ -1,0 +1,60 @@
+@import url(colors.css);
+
+button {
+	border: none;
+	outline: none;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+	font-size: 15px;
+}
+.try-it-free-btn {
+	border: 1px solid var(--pink);
+	height: fit-content;
+	padding: 0.6em 1.5em;
+	color: var(--pink);
+	background-color: #fff;
+	border-radius: 36px;
+}
+
+.get-started-btn {
+	width: 65%;
+	height: fit-content;
+	padding: 1em;
+	background-color: var(--pink);
+	color: white;
+	border-radius: 36px;
+
+	margin-top: 2rem;
+}
+
+#submit-btn {
+	width: 40%;
+	padding: 1em 0;
+	background-color: var(--pink);
+	color: white;
+	border-radius: 5px;
+}
+
+/* ||FORM */
+footer form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+footer form input {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	caret-color: var(--pink);
+	outline: none;
+	border: none;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	font-size: 16px;
+}
+
+input:focus {
+	border: 3px solid var(--dark-cyan);
+}
+footer form button {
+	align-self: flex-end;
+}

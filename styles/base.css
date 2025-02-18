@@ -1,0 +1,68 @@
+@import "normalize.css";
+@import url(colors.css);
+
+/* ||RESETS */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Open Sans", serif;
+	font-size: 16px;
+
+	/* height:100%*/
+}
+
+main {
+	/* padding: 10%; */
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+	text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+	font-family: "Poppins", serif;
+}
+
+/* ||Header */
+
+/* ||COLORS */
+
+/* ||FOOTER */
