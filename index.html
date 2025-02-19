@@ -22,6 +22,7 @@
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 			rel="stylesheet"
 		/>
+
 		<title>Frontend Mentor | Huddle landing page with curved sections</title>
 	</head>
 	<body>
@@ -37,7 +38,7 @@
 		<main class="container">
 			<!-- HERO SECTION -->
 			<section class="hero-section">
-				<h2>Build The Community Your Fans Will Love</h2>
+				<h1>Build The Community Your Fans Will Love</h1>
 				<p>
 					Huddle re-imagines the way we build communities. You have a
 					voice, but so does your audience. Create connections with your
@@ -74,14 +75,24 @@
 			<!-- SERVICE SECTION ONE -->
 			<section class="service-section-one">
 				<div class="bg-img-one-wrapper-top">
-					<img src="images/bg-section-top-mobile-1.svg" alt="" />
+					<picture>
+						<source
+							srcset="images/bg-section-top-desktop-1.svg"
+							media="(min-width: 640px)"
+						/>
+						<img
+							src="images/bg-section-top-mobile-1.svg"
+							alt="Section wave"
+							class="section-wave"
+						/>
+					</picture>
 				</div>
 				<div class="service-body-one">
-					<h3>Grow Together</h3>
+					<h2>Grow Together</h2>
 					<p>
-						Together Generate meaningful discussions with your audience
-						and build a strong, loyal community. Think of the insightful
-						conversations you miss out on with a feedback form.
+						Generate meaningful discussions with your audience and build a
+						strong, loyal community. Think of the insightful conversations
+						you miss out on with a feedback form.
 					</p>
 				</div>
 
@@ -89,13 +100,25 @@
 					<img src="images/illustration-grow-together.svg" alt="" />
 				</div>
 				<div class="bg-img-one-wrapper-bottom">
-					<img src="images/bg-section-bottom-mobile-1.svg" alt="" />
+					<picture>
+						<source
+							srcset="images/bg-section-bottom-desktop-1.svg"
+							media="(min-width: 640px)"
+						/>
+						<img
+							src="images/bg-section-bottom-mobile-1.svg"
+							alt="Section wave"
+							class="section-wave"
+						/>
+					</picture>
 				</div>
 			</section>
 
 			<!-- SERVICE SECTION TWO -->
 			<section class="service-section-two">
-				<img src="images/illustration-flowing-conversation.svg" alt="" />
+				<div class="conversion-image-wrapper">
+					<img src="images/illustration-flowing-conversation.svg" alt="" />
+				</div>
 
 				<div>
 					<h2>Flowing Conversations</h2>
@@ -110,7 +133,17 @@
 			<!-- SERVICE SECTION THREE -->
 			<section class="service-section-three">
 				<div class="bg-img-two-wrapper-top">
-					<img src="images/bg-section-top-mobile-2.svg" alt="" />
+					<picture>
+						<source
+							srcset="images/bg-section-top-desktop-2.svg"
+							media="(min-width: 640px)"
+						/>
+						<img
+							src="images/bg-section-top-mobile-2.svg"
+							alt="Section wave"
+							class="section-wave"
+						/>
+					</picture>
 				</div>
 				<div class="service-body-three">
 					<h2>Your Users</h2>
@@ -120,29 +153,49 @@
 						app, your users can start chatting immediately.
 					</p>
 				</div>
-				<div class="service-img-wrappe-tw0">
+				<div class="service-img-wrapper-two">
 					<img class="" src="images/illustration-your-users.svg" alt="" />
 				</div>
 
 				<div class="bg-img-two-wrapper-bottom">
-					<img src="images/bg-section-bottom-mobile-2.svg" alt="" />
+					<picture>
+						<source
+							srcset="images/bg-section-bottom-desktop-2.svg"
+							media="(min-width: 640px)"
+						/>
+						<img
+							src="images/bg-section-bottom-mobile-2.svg"
+							alt="Section wave"
+							class="section-wave"
+						/>
+					</picture>
 				</div>
 			</section>
 
 			<!-- CALL TO ACTION -->
 			<section class="call-to-action">
 				<h2>Ready To Build Your Community?</h2>
-				<button class="get-started-btn">Get Started For Free</button>
+				<button id="get-started-btn2" class="get-started-btn">
+					Get Started For Free
+				</button>
 			</section>
 		</main>
 		<!-- FOOTER -->
 		<footer>
 			<div class="footer-wave-wrapper">
-				<img
-					class="footer-wave"
-					src="images/bg-footer-top-mobile.svg"
-					alt=""
-				/>
+				<picture>
+					<source
+						srcset="images/bg-footer-top-desktop.svg"
+						media="(min-width: 640px)"
+					/>
+					<img
+						class="footer-wave"
+						src="images/bg-footer-top-mobile.svg"
+						alt="Section wave"
+						class="section-wave"
+					/>
+				</picture>
+				alt="" />
 			</div>
 			<div class="footer-section-one lhs">
 				<div class="footer-logo-wrapper">
